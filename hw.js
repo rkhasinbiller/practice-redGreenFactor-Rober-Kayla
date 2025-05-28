@@ -1,1 +1,6 @@
-https://github.com/rkhasinbiller/practice-redGreenFactor-Rober-Kayla.git
+let cucumber = ''
+function countVowels (words){
+    const vowels = ["a", "e", "i", "o", "u"]
+    console.log(words.split("").filter(letter => vowels.includes(letter)).length);
+}
+countVowels(cucumber);
